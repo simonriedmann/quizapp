@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.pagestructure {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerline {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: solid, 1px;
+}
