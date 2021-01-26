@@ -3,68 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Quiz App</title>
 </head>
-<body class="pagestructure">
-    <header class="headerline">
-        <img src="images/peruicon.png" alt="icon-peru" width=80>
-        <h1>Quiz App</h1>
+<body>
+    <header class="header">
+        <img src="images/peruicon.png" alt="peru-icon" width=80>
+        <h1>Quiz</h1>
     </header>
     <main>
-        <section class="questionbox">
-            <h2 class="questionheadline">Question 1</h2>
-            <p>Question text</p>
-            <button>Show answer</button>
-            <ul class="tagbox">
-                <li class="tag">Tag 1</li>
-                <li class="tag">Tag 2</li>
-                <li class="tag">Tag 3</li>
-                <li class="tag">Tag 4</li>
+        <section class="card">
+            <h2 class="card__headline">Question 1</h2>
+            <p class="card__question">Which language is also spoken in Peru besides Spanish?</p>
+            <button class="card__button">Show answer</button>
+            <ul class="card__taglist">
+                <li class="card__taglist__style">Quechua</li>
+                <li class="card__taglist__style">Italian</li>
+                <li class="card__taglist__style">Aymara</li>
+                <li class="card__taglist__style">Portugese</li>
             </ul>
         </section>
-        <section class="questionbox">
-            <h2 class="questionheadline">Question 2</h2>
-            <p>Question text</p>
-            <button>Show answer</button>
-            <ul class="tagbox">
-                <li class="tag">Tag 1</li>
-                <li class="tag">Tag 2</li>
-                <li class="tag">Tag 3</li>
-                <li class="tag">Tag 4</li>
+        <section class="card">
+            <h2 class="card__headline">Question 2</h2>
+            <p class="card__question">What is the capital of Peru</p>
+            <button class="card__button">Show answer</button>
+            <ul class="card__taglist">
+                <li class="card__taglist__style">Arequipa</li>
+                <li class="card__taglist__style">Cusco</li>
+                <li class="card__taglist__style">Lima</li>
+                <li class="card__taglist__style">Puno</li>
+            </ul>
         </section>
-        <section class="questionbox">
-            <h2 class="questionheadline">Question 3</h2>
-            <p>Question text</p>
-            <button>Show answer</button>
-            <ul class="tagbox">
-                <li class="tag">Tag 1</li>
-                <li class="tag">Tag 2</li>
-                <li class="tag">Tag 3</li>
-                <li class="tag">Tag 4</li>
+        <section class="card">
+            <h2 class="card__headline">Question 3</h2>
+            <p class="card__question">Which Peruvian footballer has played more than 20 years in the German Bundesliga?</p>
+            <button class="card__button">Show answer</button>
+            <ul class="card__taglist">
+                <li class="card__taglist__style">Jefferson Farfan</li>
+                <li class="card__taglist__style">Andre Carillo</li>
+                <li class="card__taglist__style">Renato Tapia</li>
+                <li class="card__taglist__style">Claudio Pizarro</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2 class="card__headline">Question 4</h2>
+            <p class="card__question">What is the name of the most famous site?</p>
+            <button class="card__button">Show answer</button>
+            <ul class="card__taglist">
+                <li class="card__taglist__style">Rainbow Mountain</li>
+                <li class="card__taglist__style">Machu Picchu</li>
+                <li class="card__taglist__style">Sacred Valley</li>
+                <li class="card__taglist__style">Iquitos</li>
+            </ul>
         </section>
     </main>
     <footer>
         <nav> 
-            <ul class="footerbox">
-                <li class="iconsfooter">
+            <ul class="navigation">
+                <li class="navigation__listicon">
                     <a href="index.html">
-                        Bild 4
+                        <img src="images/home.png" alt="home-icon" width=40 class="navigation__iconstyle">
                     </a>
                 </li>
-                <li class="iconsfooter">
+                <li class="navigation__listicon">
                     <a href="bookmark.html">
-                        Bild 3
+                        <img src="images/bookmark.png" alt="bookmark-icon" width=40 class="navigation__iconstyle">
                     </a>
                 </li>
-                <li class="iconsfooter">
+                <li class="navigation__listicon">
                     <a href="create.html">
-                        Bild 2
+                        <img src="images/pen.png" alt="pen-icon" width=40 class="navigation__iconstyle">
                     </a>
                 </li>
-                <li class="iconsfooter">
+                <li class="navigation__listicon">
                     <a href="profile.html">
-                        Bild 1
+                        <img src="images/user.png" alt="user-icon" width=40 class="navigation__iconstyle">
                     </a>
                 </li>
             </ul>
