@@ -1,16 +1,17 @@
 .card {
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
     align-items: center;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-bottom: 1rem;
+    background-color: lightgrey;
+    border-radius: 25px;
 }
 
 
 .card__headline {
-    color:red;
+    color: darkred;
     text-decoration: underline;
 }
 
@@ -27,14 +28,22 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     border-radius: 50%;
+    padding: 0.5rem 0;
+
 }
 
 .card__taglist__style {
     border: solid;
-    background-color: red;
+    background-color: darkred;
+    border: 0;
     color: white;
     padding: 0.5rem;
     list-style-type: none;
+    border-radius: 25px;
+    font-size: 0.75rem;
+    margin: 0.5rem;
+
 
 }
