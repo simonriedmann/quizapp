@@ -1,14 +1,19 @@
 
 .navigation {
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: darkred;
     color: white;
     padding: 0;
+    width: auto;
     margin-top: auto;
     margin-bottom: 0;
     border-radius: 25px;
+    z-index: 40;
+    right: 1rem;
+    left: 1rem;
 }
 
 .navigation__listicon {
@@ -23,5 +28,9 @@
 }
 
 .navigation__iconstyle:hover {
-    background-color: grey;
+    background-color: lightgrey;
+}
+
+.navigation__iconstyle:active {
+    transition: transform: scale(1.2);
 }
