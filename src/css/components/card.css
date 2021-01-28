@@ -33,7 +33,7 @@
     font-size: 1rem;
     padding: 1rem;
     transition-duration: 0.4s;
-
+    z-index: 50;
 }
 
 .card__button:hover {
@@ -47,6 +47,13 @@
     background-color: transparent;
     color: transparent;
     border: transparent;
+}
+
+
+.card__answer {
+    position: relative;
+    z-index: 40;
+    
 }
 
 
@@ -72,6 +79,15 @@
     font-size: 0.75rem;
     margin: 0.5rem;
     border: 0.1rem solid darkred;
+
+
+}
+
+.card__bookmark {
+    position: absolute;
+    z-index: 30;
+    top: -20px;
+    right: 20px;
 
 
 }
