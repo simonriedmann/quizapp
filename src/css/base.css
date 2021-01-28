@@ -36,6 +36,16 @@ header {
     z-index: 20;
   }
   
+  .headcontainer {
+    position: fixed;
+    background-color: white;
+    color: white;
+    z-index: 15;
+    top: 0;
+    margin-top: 0;
+    height: 100px;
+
+  }
   
   main {
     margin-top: 130px;

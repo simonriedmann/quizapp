@@ -3,8 +3,13 @@
 @import './components/card.css';
 @import './components/header.css';
 @import './components/navigation';
+@import './components/bookmark.css';
+@import './components/profile.css';
+@import './components/form.css';
 
-@import './utility/utility.css'
+
+
+@import './utility/utility.css';
 
 
 
