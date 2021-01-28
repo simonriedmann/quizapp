@@ -3,28 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Profile</title>
 </head>
 <body>
-    <header>
-        <img src="images/profile.JPG" alt="profile">
+    <header class="header">
+        <img src="images/peruicon.png" alt="icon-peru" width=80>
         <h1>Profile</h1>
     </header>
     <main>
-        <h2>Simon Riedmann</h2>
-        <p>I am Simon. I was born on 22.08.1996 in Augsburg. I did my studies in Business Administration and currently I am in a web development bootcamp. My hobbies are outdoor activities, cooking and backpacking.
-        </p>
-        <h3>Skills</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Shell</li>
-                <li>Git/Github</li>
-                <li>English</li>
-                <li>Spanish</li>
-            </ul>
-        <button>Logout</button>
+        <div class="profile">
+            <img src="images/profile.JPG" alt="profile" width=140 class="profile__img">
+            <h2 class="profile__name">Simon Riedmann</h2>
+            <article class="profile__textbox">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias quam fugit voluptas impedit molestiae tempore, culpa eaque. Est, sequi.
+                </p>
+                <h3 class="profile__texthead">Skills</h3>
+                    <ul class="profile__list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Shell</li>
+                        <li>Git/Github</li>
+                        <li>English</li>
+                        <li>Spanish</li>
+                    </ul>
+                <button class="profile__button">Logout</button>
+            </article>
+        </div>
     </main>
+    <footer>
+        <nav> 
+            <ul class="navigation">
+                <li class="navigation__listicon">
+                    <a href="index.html">
+                        <img src="images/home.png" alt="home-icon" width=40 class="navigation__iconstyle">
+                    </a>
+                </li>
+                <li class="navigation__listicon">
+                    <a href="bookmark.html">
+                        <img src="images/bookmark.png" alt="bookmark-icon" width=40 class="navigation__iconstyle">
+                    </a>
+                </li>
+                <li class="navigation__listicon">
+                    <a href="create.html">
+                        <img src="images/pen.png" alt="pen-icon" width=40 class="navigation__iconstyle">
+                    </a>
+                </li>
+                <li class="navigation__listicon">
+                    <a href="profile.html">
+                        <img src="images/user.png" alt="user-icon" width=40 class="navigation__iconstyle">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>

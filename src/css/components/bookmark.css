@@ -1,0 +1,5 @@
+.card__bookmark {
+    position: relative;
+    z-index: 30;
+    top: -20px;
+}

@@ -1,0 +1,27 @@
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkred;
+    color: white;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: 0;
+    border-radius: 25px;
+}
+
+.navigation__listicon {
+    color: white;
+    list-style-type: none;
+    padding: 0.5rem;
+    padding-left: 0;
+}
+
+.navigation__iconstyle {
+    background-color: darkred;
+}
+
+.navigation__iconstyle:hover {
+    background-color: grey;
+}
