@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/8b3bd3c515.js" crossorigin="anonymous"></script>
     <title>Quiz App</title>
 </head>
 <body class="backgroundimage">
     <div class="headcontainer">
         <p>test</p>
     </div>
- 
+
     <header>
         <img src="images/peruicon.png" alt="peru-icon" width=80>
         <h1>Quiz</h1>
     </header>
     <main>
         <section class="card">
-            <img src="images/bookmark.png" alt="bookmark" width=50 class="card__bookmark">
+            <i class="fas fa-bookmark fa-2x card__bookmark"></i>
+            <!--<img src="images/bookmark.png" alt="bookmark" width=50 class="card__bookmark">-->
             <h2 class="card__headline">Question 1</h2>
             <p class="card__question">Which language is also spoken in Peru besides Spanish?</p>
             <button class="card__button">Show answer</button>
-            <p>Quechua</p>
+            <p class="card__answer hidden">Quechua</p>
             <ul class="card__taglist">
                 <li class="card__taglist__style">Quechua</li>
                 <li class="card__taglist__style">Italian</li>
@@ -31,10 +34,10 @@
         </section>
         <section class="card">
             <h2 class="card__headline">Question 2</h2>
-            <img src="images/bookmark.png" alt="bookmark" width=50 class="card__bookmark">
+            <i class="fas fa-bookmark fa-2x card__bookmark"></i>
             <p class="card__question">What is the capital of Peru?</p>
             <button class="card__button">Show answer</button>
-            <p>Lima</p>
+            <p class="card__answer hidden">Lima</p>
             <ul class="card__taglist">
                 <li class="card__taglist__style">Arequipa</li>
                 <li class="card__taglist__style">Cusco</li>
@@ -43,11 +46,11 @@
             </ul>
         </section>
         <section class="card">
-            <img src="images/bookmark.png" alt="bookmark" width=50 class="card__bookmark">
+            <i class="fas fa-bookmark fa-2x card__bookmark"></i>
             <h2 class="card__headline">Question 3</h2>
             <p class="card__question">Which Peruvian footballer has played more than 20 years in the German Bundesliga?</p>
             <button class="card__button">Show answer</button>
-            <p>Claudio Pizarro</p>
+            <p class="card__answer hidden">Claudio Pizarro</p>
             <ul class="card__taglist">
                 <li class="card__taglist__style">Jefferson Farfan</li>
                 <li class="card__taglist__style">Andre Carillo</li>
@@ -56,11 +59,11 @@
             </ul>
         </section>
         <section class="card">
-            <img src="images/bookmark.png" alt="bookmark" width=50 class="card__bookmark">
+            <i class="fas fa-bookmark fa-2x card__bookmark"></i>
             <h2 class="card__headline">Question 4</h2>
             <p class="card__question">What is the name of the most famous tourist site?</p>
             <button class="card__button">Show answer</button>
-            <p class="card__answer">Machu Picchu</p>
+            <p class="card__answer hidden">Machu Picchu</p>
             <ul class="card__taglist">
                 <li class="card__taglist__style">Rainbow Mountain</li>
                 <li class="card__taglist__style">Machu Picchu</li>

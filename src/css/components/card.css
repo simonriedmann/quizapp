@@ -43,17 +43,9 @@
 }
 
 
-.card__button:active {
-    background-color: transparent;
-    color: transparent;
-    border: transparent;
-}
-
-
 .card__answer {
     position: relative;
-    z-index: 40;
-    
+    z-index: 40;    
 }
 
 
@@ -88,8 +80,24 @@
     z-index: 30;
     top: -20px;
     right: 20px;
+    width: 2rem;
+    height: 5rem;
+}
 
 
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
+.fas {
+    color: black;
+}
+
+.active {
+    color: darkred;
 }
 
 
