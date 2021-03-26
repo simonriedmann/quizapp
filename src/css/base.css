@@ -16,8 +16,16 @@ body {
     font-size: 1.25rem;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
-    z-index: 15;
 }
+
+.backgroundimage {
+  background-image: url(../images/machu-picchu.jpg);
+  background-size: cover;
+  z-index: 20;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 
 header {
     position: fixed;
@@ -44,7 +52,7 @@ header {
     z-index: 15;
     top: 0;
     margin-top: 0;
-    height: 100px;
+    height: 50px;
   }
 
   main {
@@ -73,7 +81,7 @@ header {
     z-index: 15;
     bottom: 0;
     margin-bottom: 0;
-    height: 40px;
+    height: 35px;
   }
 
 
